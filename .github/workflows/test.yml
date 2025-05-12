@@ -9,4 +9,4 @@ jobs:
       name: require-approval
     steps:
       - name: Test
-        run: echo "This is a test."
+        run: sleep 180 && echo "This is a test."
