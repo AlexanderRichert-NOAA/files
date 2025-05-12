@@ -6,6 +6,8 @@ on:
 jobs:
   placeholder:
     runs-on: ubuntu-latest
+    environment:
+      name: require-approval
     steps:
       - name: Test
         run: echo "This is a test."
