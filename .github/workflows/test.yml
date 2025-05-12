@@ -1,0 +1,11 @@
+name: Empty Workflow
+
+on:
+  workflow_dispatch
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: echo "This is a test."
