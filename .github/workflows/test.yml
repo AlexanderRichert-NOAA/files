@@ -1,7 +1,6 @@
 name: Empty Workflow
 
-on:
-  workflow_dispatch
+on: [pull_request]
 
 jobs:
   placeholder:
